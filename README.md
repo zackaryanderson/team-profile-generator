@@ -43,10 +43,11 @@
   
   ## Badges
 
-  ![GitHub last commit](https://img.shields.io/github/last-commit/zackaryanderson/https://github.com/zackaryanderson/team-profile-generator)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/zackaryanderson/https://github.com/zackaryanderson/team-profile-generator)
-  ![GitHub issues](https://img.shields.io/github/issues/zackaryanderson/https://github.com/zackaryanderson/team-profile-generator)
-  ![GitHub top language](https://img.shields.io/github/languages/top/zackaryanderson/https://github.com/zackaryanderson/team-profile-generator) ![GitHub language count](https://img.shields.io/github/languages/count/zackaryanderson/https://github.com/zackaryanderson/team-profile-generator)
+  ![GitHub language count](https://img.shields.io/github/languages/count/zackaryanderson/team-profile-generator)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/zackaryanderson/team-profile-generator)
+  ![GitHub issues](https://img.shields.io/github/issues/zackaryanderson/team-profile-generator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/zackaryanderson/team-profile-generator) 
+  ![GitHub language count](https://img.shields.io/github/languages/count/zackaryanderson/team-profile-generator)
   
 
   
