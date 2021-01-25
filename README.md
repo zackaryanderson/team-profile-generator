@@ -28,6 +28,7 @@
     
   ### Follow these instructions to use the project
   - To use the application, you just have to type "node app" in your command terminal to start the prompts. Then just answer the questions as they appear
+  - Video Link: https://drive.google.com/file/d/1KyzWFSqteG_UEOLMu2vWXnCiOBvhwA83/view
   
 
   
