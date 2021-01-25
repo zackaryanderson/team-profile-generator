@@ -1,11 +1,11 @@
 //call required packages
 const inquirer = require('inquirer');
-const fs = require('fs');
 const Engineer = require("./lib/Engineer.js");
 const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
 const Intern = require("./lib/Intern");
 const generateHTML = require("./src/generateHTML");
+
 
 //start an array to store info
 const teamInfo = [];
@@ -41,7 +41,7 @@ addMember = () => {
             type: 'list',
             name: 'memberName',
             message: 'Would you like to enter the information for a(n)...',
-            choices: ['Engineer', 'Intern', 'Manager', 'Other', "...I'm done entering team members"]
+            choices: ['Manager','Engineer', 'Intern', 'Other', "...I'm done entering team members"]
         },
     ])
         .then(({ memberName }) => {
@@ -165,7 +165,7 @@ addMember = () => {
                     })
             }
             else {
-                createHTML(teamInfo)
+                createHTML(teamInfo,teamName)
             }
         });
 };
@@ -176,3 +176,9 @@ createHTML = (teamInfo)  => {
 };
 
 promptUser();
+// .then(answer => writeFile(answer))
+// .then(writeFileResponse => {
+//     console.log(writeFileResponse.message)
+// }).catch(err => {
+//     console.log(err);
+// });
